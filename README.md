@@ -1,7 +1,7 @@
-Hulk DoS tool
+Nobita DoS tool
 =============
 
-HULK DoS tool ported to Go language from Python. 
+NOBITA DoS tool ported to Go language from Python. 
 Original Python utility by Barry Shteiman http://www.sectorix.com/2012/05/17/hulk-web-server-dos-tool/
 I just ported the code as is quick and dirty. Original functions names are keeped and original logic mostly keeped too.
 
@@ -13,11 +13,23 @@ connection pool on the same hardware than Python version can.
 
 This tool targeted for stress testing and may really down badly configured server or badly made app. Use it carefully.
 
-Examples:
+Run Toll :
 
-    $ hulk -site http://example.com/test/ 2>/dev/null
+    $ apt update && apt upgrade
 
-    $ HULKMAXPROCS=4096 hulk -site http://example.com 2>/tmp/errlog
+    $ pkg install git 
+
+    $ pkg install python2
+
+    $ pkg install python3
+
+    $ git clone https://github.com/nobita9944/Nobita
+
+    $ cd Nobita
+
+    $ chmod +x *
+
+    $ python2 nobita.py https://your'e site.com
 
 Useful environment vars:
 
