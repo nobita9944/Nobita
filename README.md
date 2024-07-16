@@ -16,18 +16,26 @@ This tool targeted for stress testing and may really down badly configured serve
 Run Toll :
 
     $ apt update && apt upgrade
+.
 
     $ pkg install git 
+    
+.
 
     $ pkg install python2
+.
 
     $ pkg install python3
+.
 
     $ git clone https://github.com/nobita9944/Nobita
+.
 
     $ cd Nobita
+.
 
     $ chmod +x *
+.
 
     $ python2 nobita.py https://your'e site.com
 
